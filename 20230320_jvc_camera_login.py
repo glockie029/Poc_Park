@@ -77,7 +77,7 @@ if __name__ == '__main__':
 
     os.environ.setdefault('http_proxy', 'http://127.0.0.1:10808')
     os.environ.setdefault('https_proxy', 'http://127.0.0.1:10808')
-    u = "http://221.120.41.168:40001"
+    u = "http://127.0.0.1:40001"
     exp = DemoPOC()
     exp.set_option("url", u)
     exp.execute(mode='verify')

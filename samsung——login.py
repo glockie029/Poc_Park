@@ -107,5 +107,5 @@ register_poc(DemoPOC)
 
 if __name__ == '__main__':
     exp = DemoPOC()
-    exp.set_option("url",'http://14.45.46.155/')
+    exp.set_option("url",'http://127.0.0.1/')
     exp.execute(mode='verify')

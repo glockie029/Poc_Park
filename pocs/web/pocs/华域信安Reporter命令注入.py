@@ -39,6 +39,6 @@ if __name__ == "__main__":
     os.environ.setdefault('http', 'http://127.0.0.1:7890')
     exp = EXP()
     logger.setLevel(level='DEBUG')
-    exp.set_option('url', 'https://119.163.196.218:9091')
+    exp.set_option('url', 'https://127.0.0.1:9091')
     exp.set_option('command', 'id')
     exp.execute(mode='attack')

